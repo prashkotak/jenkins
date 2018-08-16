@@ -5,7 +5,7 @@ pipeline {
 		stage('Build') {
 			steps {
 				echo 'Buiing..'
-				docker run httpd
+				
 			}
 		}
 		stage('Test') {
