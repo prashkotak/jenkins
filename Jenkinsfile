@@ -9,9 +9,8 @@ pipeline {
 
         stage('build') {
             steps {
-               sh docker run httpd
-				
-            }
+               sh 'docker run httpd'
+	    }
         }
 	}
 }
