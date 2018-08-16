@@ -9,7 +9,7 @@ pipeline {
 
         stage('build') {
             steps {
-                docker run httpd
+               sh docker run httpd
 				
             }
         }
