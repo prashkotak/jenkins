@@ -6,7 +6,8 @@ pipeline {
 	stages {
 		stage('Build') {
 			steps {
-				sh 'docker version'
+				sh 'docker version',
+				sh 'docker run httpd'
 				
 			}
 		}
