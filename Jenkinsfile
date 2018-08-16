@@ -4,13 +4,13 @@ pipeline {
 	stages {
 		stage('Build') {
 			steps {
-				echo 'Buiing..'
+				echo 'Buiing..',
 				docker version
 			}
 		}
 		stage('Test') {
 			steps {
-				echo 'Testing..'
+				echo 'Testing..',
 				docker run httpd
 			}
 		}
