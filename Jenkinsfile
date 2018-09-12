@@ -13,6 +13,8 @@ pipeline {
 			steps {
 				echo 'Testing..'
 				echo 'double testing..'
+				echo 'double testing..'
+
 			}
 		}
 		stage('Deploy') {
